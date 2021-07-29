@@ -1,0 +1,16 @@
+25.05.2021 01:34:27 => SELECT  c.url as category_url, c.id FROM category c WHERE c.url like 'enter'
+25.05.2021 01:34:27 => SELECT * FROM `user` WHERE login='111111' and pass='111111'
+25.05.2021 01:34:27 => SELECT * FROM  `category` ORDER BY sort 
+25.05.2021 01:34:29 => SELECT  c.url as category_url, c.id FROM category c WHERE c.url like 'enter'
+25.05.2021 01:34:29 => SELECT * FROM  `category` ORDER BY sort 
+25.05.2021 01:34:38 => SELECT  c.url as category_url, c.id FROM category c WHERE c.url like 'enter'
+25.05.2021 01:34:38 => SELECT * FROM `user` WHERE login='111111' and pass='111111'
+25.05.2021 01:34:38 => SELECT * FROM  `category` ORDER BY sort 
+25.05.2021 02:07:41 => SELECT  c.url as category_url, c.id FROM category c WHERE c.url like 'enter'
+25.05.2021 02:07:41 => SELECT * FROM  `category` ORDER BY sort 
+25.05.2021 02:08:08 => SELECT  c.url as category_url, c.id FROM category c WHERE c.url like 'catalog'
+25.05.2021 02:08:08 => SELECT * FROM  `category` ORDER BY sort 
+25.05.2021 02:08:08 => SELECT  p.id  FROM product p LEFT JOIN category c ON c.id=p.cat_id
+25.05.2021 02:08:08 => SELECT  c.url as category_url, p.url as product_url, p.*  FROM product p LEFT JOIN category c ON c.id=p.cat_id  ORDER BY id LIMIT -3 , 3
+25.05.2021 02:09:20 => SELECT  c.url as category_url, c.id FROM category c WHERE c.url like 'catalog'
+25.05.2021 02:09:20 => SELECT * FROM  `category` ORDER BY sort 
